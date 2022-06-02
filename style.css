@@ -539,14 +539,6 @@ main {
     }
 }
 
-@media screen and (max-width: 400px) {
-    .Right-Conteiner h2 {
-    font-size: 33px;
-    line-height: 1.4;
-    white-space: pre;
-    word-break: keep-all;
-    }
-}
 
 .Right-Conteiner h2,
 .Right-Conteiner p {
@@ -569,6 +561,10 @@ main {
 .Right-Conteiner h2>span {
     font-family: 'Lato',sans-serif;
     font-size: 38px;
+}
+
+.Right-Conteiner h2 br {
+    display: none;
 }
 
 .Right-Conteiner p {
